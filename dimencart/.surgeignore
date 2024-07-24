@@ -1,0 +1,11 @@
+# files
+.gitignore
+purgecss.config.js
+package-lock.json
+
+# dir
+.cache/
+.vscode/
+.git/
+extra/
+node_modules/

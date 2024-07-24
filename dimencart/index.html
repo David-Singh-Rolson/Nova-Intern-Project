@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <!-- Welcome to HACKTOBERFEST 2022 -->
+  
+  <!-- DONT WAIT; Start Contributing. Small contribution also counts and will be considered -->
+
+<head>
+  <title>DimenCart - modern era carriage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" href="./vendor/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./vendor/sementic/semantic.min.css">
+  <link rel="stylesheet" href="./vendor/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./vendor/css/animate.min.css">
+  <link rel="stylesheet" href="./vendor/@mdi/font/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="./src/css/navbar.css">
+  <link rel="stylesheet" href="./src/css/swiper.css">
+  <link rel="stylesheet" href="./src/css/wstyle.css">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+  <link rel="manifest" href="./favicons/site.webmanifest">
+  <!-- Favicons -->
+
+  
+  <!-- HTML Meta Tags -->
+  <title>DimenCart - modern era carriage</title>
+  <meta name="description" content="Find the perfect gift, electronics, vintage & on-trend clothes, unique jewelry, and more… lots more.">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://dimencart.surge.sh/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="DimenCart - modern era carriage">
+  <meta property="og:description" content="Find the perfect gift, electronics, vintage & on-trend clothes, unique jewelry, and more… lots more.">
+  <meta property="og:image" content="https://dimencart.surge.sh/extra/opengraph/og.webp">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="dimencart.surge.sh">
+  <meta property="twitter:url" content="https://dimencart.surge.sh/">
+  <meta name="twitter:title" content="DimenCart - modern era carriage">
+  <meta name="twitter:description" content="Find the perfect gift, electronics, vintage & on-trend clothes, unique jewelry, and more… lots more.">
+  <meta name="twitter:image" content="https://dimencart.surge.sh/extra/opengraph/og.webp">
+
+  <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+        
+</head>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" aria-label="Main navigation"
+  style="background-color:#076ae1;max-height: 7vh;padding: 0px;">
+  <div class="container align-items-center" style="margin-bottom: 0px; padding-bottom:0px">
+    <a class="navbar-brand flex-fill animate__animated animate__flipInY" href="#"><span><img
+          style="width:50px;height:35px;border-radius:10%;object-fit:cover;"
+          src="./res/logo/dimencart-logo-blue-dc.jpeg"></span></a>
+    <form class="flex-fill mx-auto me-auto">
+      <div class="ui category search mx-auto">
+        <div class="ui icon input">
+          <input class="prompt" type="text" placeholder="Search Products" id="psearch" style="min-width:40vw;width:auto;">
+          <i class="search icon"></i>
+        </div>
+        <div class="results"></div>
+      </div>
+    </form>
+    <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+      <i class="mdi mdi-menu-open"></i>
+    </button>
+
+    <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+        <li class="nav-item d-none" id="ic1">
+          <a class="nav-link active" aria-current="page" href="#"><i
+              class="mdi mdi-bookmark-box-multiple p-lg-0 zmbar"></i></a>
+        </li>
+        <li class="nav-item" style="display: flex; justify-content: center;align-items:center" id="ic2">
+          <a href="">
+            <div class="ui label" style="background-color:#0271e7;color:white;padding: 7px">
+            <i class="large cart icon" ></i> 23
+          </div></a>
+        </li>
+        <li class="nav-item" id="ic5">
+          <a class="nav-link" href="./u/login.html">
+            <!-- <i class="mdi mdi-cart p-lg-0 zmbar"></i> -->
+            <button class="ui mini btn btn-primary zmbar me-2" style="padding: 3px 6px; font-family: sans-serif; font-size: 16px;">Login</button>
+          </a>
+        </li>
+          <!-- <a class="nav-link" href="./login.html">
+          <div class="ui mini blue animated button p-lg-0 zmbar" tabindex="0">
+            <div class="visible content">Login</div>
+            <div class="hidden content">
+              <i class="right arrow icon p-lg-0 zmbar"></i>
+            </div>
+          </div>
+        </a> -->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<nav class="navbar ">
+  <div class="ui scrollable six item menu" style="width:100%;overflow-x: scroll;">
+    <a href="" class="active item"><i class="heart icon"></i> </a>
+    <a href="" class="item">Camera</a>
+    <a href="" class="item">Shoes</a>
+    <a href="" class="item">Shirts</a>
+    <a href="" class="item">Mobiles</a>
+    <a href="" class="item">Kurtas</a>
+    <a href="" class="item">Lens</a>
+    <a href="" class="item">Gadgets</a>
+  </div>
+</nav>
+
+<br>
+
+<div class="jumbotron">
+  <div class="container col-12 justify-content-end">
+    <div class="swiper mySwiper border rounded-3 o-jumbo__slide">
+      <div class="zBanners swiper-wrapper h-100" style="max-height: 50vh">
+        <div class="zbslide swiper-slide h-100"><img
+            src="res\banner\online-shopping-on-phone-buy-sell-business-digital-web-banner-application-money-advertising-payment-ecommerce-illustration-search-free-vector.jpg">
+        </div>
+        <div class="zbslide swiper-slide"><img
+            src="res\banner\online-shopping-on-phone-buy-sell-business-digital-web-banner-application-money-advertising-payment-ecommerce-illustration-search-vector (1).jpg">
+        </div>
+        <div class="zbslide swiper-slide"><img
+            src="res\banner\online-shopping-on-phone-buy-sell-business-digital-web-banner-application-money-advertising-payment-ecommerce-illustration-search-vector (2).jpg">
+        </div>
+        <div class="zbslide swiper-slide"><img
+            src="res\banner\online-shopping-on-phone-buy-sell-business-digital-web-banner-application-money-advertising-payment-ecommerce-illustration-search-vector (3).jpg">
+        </div>
+        <div class="zbslide swiper-slide"><img
+            src="res\banner\online-shopping-on-phone-buy-sell-business-digital-web-banner-application-money-advertising-payment-ecommerce-illustration-search-vector (4).jpg">
+        </div>
+        <div class="zbslide swiper-slide"><img
+            src="res\banner\shopping-online-on-phone-with-podium-paper-art-modern-background-gifts-box-illustration-free-vector.jpg">
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</div>
+
+<hr style="height:5px;border-width:0;color:gray;background-color:gray">
+<br size="100">
+
+<div class="animate__animated animate__bounceInLeft ms-3 ms-lg-5 mb-sm-5 t-prods__explore">
+  <h1>Explore popular digital products</h1>
+</div>
+
+<div class="ui grid m-lg-5">
+  <div class="doubling four column row 1">
+
+    <div class="column" id="pcard1"></div>
+    <div class="column" id="pcard2"></div>
+    <div class="column" id="pcard3"></div>
+    <div class="column" id="pcard4"></div>
+
+  </div>
+</div>
+
+<hr>
+
+<div class="animate__animated animate__bounceInLeft ms-3 ms-lg-5 mb-sm-5 ">
+  <h1 class="t-prods__explore pt-5 pb-1">Let your footwears say</h1>
+</div>
+
+<div class="ui grid m-lg-5">
+  <div class="doubling four column row 1">
+
+    <div class="column" id="pcard5"></div>
+    <div class="column" id="pcard6"></div>
+    <div class="column" id="pcard7"></div>
+    <div class="column" id="pcard8"></div>
+
+  </div>
+</div>
+
+
+<hr>
+
+<div class="animate__animated animate__bounceInLeft ms-3 ms-lg-5 mb-sm-5 ">
+  <h1 class="t-prods__explore pt-5 pb-0">Explore quality garments</h1>
+</div>
+
+<div class="ui grid m-lg-5">
+  <div class="doubling four column row 1">
+
+    <div class="column" id="pcard9"></div>
+    <div class="column" id="pcard10"></div>
+    <div class="column" id="pcard11"></div>
+    <div class="column" id="pcard12"></div>
+  </div>
+</div>
+
+<hr>
+
+<div class="animate__animated animate__bounceInLeft ms-3 ms-lg-5 mb-sm-5e">
+  <h1 class=" t-prods__explor pt-5 pb-1">Glow your natural beauty</h1>
+</div>
+
+<div class="ui grid m-lg-5">
+  <div class="doubling four column row 1">
+
+    <div class="column" id="pcard13"></div>
+    <div class="column" id="pcard14"></div>
+    <div class="column" id="pcard15"></div>
+    <div class="column" id="pcard16"></div>
+
+  </div>
+</div>
+
+<hr>
+
+<div class="animate__animated animate__bounceInLeft ms-3 ms-lg-5 mb-sm-5 ">
+  <h1 class="t-prods__explore pt-5 pb-1">Go more digital</h1>
+</div>
+
+<div class="ui grid m-lg-5">
+  <div class="doubling four column row 1">
+
+    <div class="column" id="pcard17"></div>
+    <div class="column" id="pcard18"></div>
+    <div class="column" id="pcard19"></div>
+    <div class="column" id="pcard20"></div>
+  </div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<hr><br><br><br><br><br>
+
+
+  <footer class="Flex">
+      <div class="footer_nav Flex">
+        <div class="tabs Flex">
+          <div >
+            <h5>Services</h5>
+            <ul class="nav flex-column">
+              <li class=" mb-2"><a href="./index.html" class="nav-link p-0 text-muted">Home</a></li>
+                  <li class=" mb-2"><a href="#" class="nav-link p-0 text-muted">Explore</a></li>
+                  <li class=" mb-2"><a href="#" class="nav-link p-0 text-muted">Affiliate</a></li>
+                  <li class=" mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              </ul>
+          </div>
+
+          <div >
+              <h5>About</h5>
+              <ul class="nav flex-column">
+                  <li class=" mb-2"><a href="#" class="nav-link p-0 text-muted">Company</a></li>
+                  <li class=" mb-2"><a href="./p/careers.html" class="nav-link p-0 text-muted">Careers</a></li>
+                  <li class=" mb-2"><a href="./p/terms-and-conditions.html"
+                    class="nav-link p-0 text-muted">Terms and Conditions</a></li>
+                    <li class=" mb-2"><a href="./p/privacy-policy.html" class="nav-link p-0 text-muted">Privacy Policy</a></li>
+                  </ul>
+                </div>
+        </div>
+
+          <div>
+              <form>
+                  <h5>Subscribe to our newsletter</h5>
+                  <p>Monthly digest of what's new and exciting from us.</p>
+                  <div class="d-xs-block d-md-flex w-100 gap-2">
+                      <label for="newsletter1" class="visually-hidden">Email address</label>
+                      <input id="newsletter1" type="text" class="form-control mb-1" placeholder="Email address">
+                      <button class="btn btn-primary" type="button">Subscribe</button>
+                  </div>
+                  <div style="height: 20px"></div>
+                  <div class="ui right float">
+                      <a href="https://facebook.com">
+                          <i class="facebook icon"></i>
+                      </a>
+                      <a href="https://twitter.com">
+                          <i class="twitter icon"></i>
+                      </a>
+                      <a href="https://linkedin.com">
+                          <i class="linkedin icon"></i>
+                      </a>
+                      <a href="https://instagram.com">
+                          <i class="instagram icon"></i>
+                      </a>
+                  </div>
+              </form>
+          </div>
+      </div>
+
+      <div class="d-flex justify-content-between py-4 my-4 border-top">
+          <p>&copy; 2022 DimenCart, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                          <use xlink:href="#twitter" />
+                      </svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                          <use xlink:href="#instagram" />
+                      </svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                          <use xlink:href="#facebook" />
+                      </svg></a></li>
+          </ul>
+      </div>
+  </footer>
+
+
+<script src="./vendor/js/jquery-3.6.0.min.js"></script>
+<script src="./vendor/js/bootstrap.bundle.min.js"></script>
+<script src="./vendor/js/semantic.min.js"></script>
+<script src="./vendor/js/swiper-bundle.min.js"></script>
+<script src="./src/js/trigo_swipe.js"></script>
+<script src="./src/js/helper.js"></script>
+<script src="./src/js/script.js"></script>
+<script src="./src/js/products.js"></script>
+</body>
+
+</html>
